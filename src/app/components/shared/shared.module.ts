@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BtnPrimaryComponent } from './btn-primary/btn-primary.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 
 @NgModule({

@@ -1,0 +1,18 @@
+<section>
+    <div class="main-content">
+        <h2>Contato</h2>
+        <p>Preencha o formulário para entrar em contato comigo via e-mail.</p>         
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="db973f09-3527-48e6-87b5-1431563ea288">
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="8" placeholder="Digite sua mensagem" required></textarea>
+            <input type="hidden" name="redirectTo" value="http://henrique-gomes.s3-website.us-east-2.amazonaws.com/">
+            <input type="text" name="honeypot" style="display: none;">
+            <btn-primary type="submit" text="enviar"></btn-primary>
+        </form>
+    </div>
+</section>
