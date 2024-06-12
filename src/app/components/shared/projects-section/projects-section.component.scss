@@ -1,0 +1,15 @@
+@import '../../../colors.scss';
+
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    .project-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        gap: 32px;
+    }
+}
