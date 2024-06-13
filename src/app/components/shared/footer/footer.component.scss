@@ -1,0 +1,21 @@
+@import '../../../colors.scss';
+
+.content {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: $primary-color-dark-600;
+
+    p {
+        color: $white-text-color-500;
+        margin: 0;
+    }
+
+    a {
+        color: $white-text-color-500;
+        text-decoration: none;
+
+        &:hover {
+            color: $hover-color-lighter;
+        }
+    }
+}

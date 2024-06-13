@@ -4,13 +4,15 @@ import { BtnPrimaryComponent } from './btn-primary/btn-primary.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     BtnPrimaryComponent,
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
   exports: [
     BtnPrimaryComponent,
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
