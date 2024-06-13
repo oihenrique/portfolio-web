@@ -20,7 +20,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 500px;
+        width: 300px;
         margin: 0 auto;
         padding: 2rem 3rem;
         background-color: $primary-color-dark-600;
@@ -68,4 +68,13 @@
             font-size: 12px;
         }
     }
+}
+
+@media (min-width: 1080px) {
+    .main-content {
+        form {
+            width: 500px;
+        }
+    }
+
 }
