@@ -57,13 +57,26 @@ main {
         max-width: 60%;
 
         h1 {
+            margin-top: 4rem !important;
             font-size: 56px;
-            margin-top: 4rem;
         }
     }
 
     img {
         width: 300px;
         margin: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-content {
+        max-width: 50%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }

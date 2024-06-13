@@ -26,3 +26,12 @@ h1 {
         padding: 0 72px;
     }
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
