@@ -1,0 +1,11 @@
+@import '../../../colors.scss';
+
+.tag {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 8px 8px 8px 0;
+	padding: 2px 8px;
+	border-radius: 4px;
+	color: white;
+	background-color: $primary-color-500;
+}
