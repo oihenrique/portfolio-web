@@ -7,11 +7,17 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
 
-    div {
+    li {
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style-type: none;
         gap: 32px;
+
+        ul {
+            flex-direction: column;
+            padding-bottom: 1rem;
+        }
     }
 
     a {
@@ -41,6 +47,37 @@ header {
         width: 24px;
         height: 24px;
     }
+
+    .menu {
+        display: none;
+
+        &.is-open {
+            display: block;
+            position: absolute;
+            top: 4.5rem;
+            right: .4rem;
+            background-color: $white-text-color-500;
+            width: 100%;
+
+            .menu-item {
+                border-bottom: 1px solid $text-color-200;
+            }
+        }
+
+        .menu-item {
+            padding: 0 10px;
+            display: block;
+            font-size: 0.6rem;
+        }
+    }
+
+    #home, #contact {
+        display: none;
+    }
+
+    .burger {
+        margin: 0 auto;
+    }
 }
 
 @keyframes slideIn {
@@ -50,4 +87,19 @@ header {
     to {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 720px) {
+    .burger {
+        display: none !important;
+    }
+    
+    .menu {
+        display: flex !important;
+    }
+
+    #home, #contact {
+        display: inline !important;
+    }
+    
 }
