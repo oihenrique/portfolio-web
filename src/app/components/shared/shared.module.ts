@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { BtnPrimaryComponent } from './btn-primary/btn-primary.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
-import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { TagComponent } from './tag/tag.component';
 
 
 @NgModule({
@@ -12,7 +12,8 @@ import { FooterComponent } from './footer/footer.component';
     BtnPrimaryComponent,
     HeaderComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    TagComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     BtnPrimaryComponent,
     HeaderComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    TagComponent
   ]
 })
 export class SharedModule { }
