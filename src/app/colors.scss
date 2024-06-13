@@ -1,45 +1,42 @@
-$primary-color-100: #FAF6C3;
-$primary-color-200: #F5ED85;
-$primary-color-300: #F1E45D;
-$primary-color-400: #EDE038;
-$primary-color-500: #F2E963;
-$primary-color-600: #E8E14C;
-$primary-color-700: #DEDA35;
-$primary-color-800: #D4D21E;
-$primary-color-900: #CACB07;
+$primary-color-500: #2A6AE0;
+$secondary-color-500: #7001E0;
 
-$secondary-color-100: #E66BBF;
-$secondary-color-200: #D43EAB;
-$secondary-color-300: #C22198;
-$secondary-color-400: #B10088;
-$secondary-color-500: #BF308D;
-$secondary-color-600: #AB2C7E;
-$secondary-color-700: #97276F;
-$secondary-color-800: #83235F;
-$secondary-color-900: #6F1E50;
+$primary-color-100: lighten($primary-color-500, 40%);
+$primary-color-200: lighten($primary-color-500, 30%);
+$primary-color-300: lighten($primary-color-500, 20%);
+$primary-color-400: lighten($primary-color-500, 10%);
+$primary-color-600: darken($primary-color-500, 10%);
+$primary-color-700: darken($primary-color-500, 20%);
+$primary-color-800: darken($primary-color-500, 30%);
+$primary-color-900: darken($primary-color-500, 40%);
 
-$terciary-color-100: #F981A2;
-$terciary-color-200: #F5568E;
-$terciary-color-300: #F32C79;
-$terciary-color-400: #F10765;
-$terciary-color-500: #F23064;
-$terciary-color-600: #E90C4F;
-$terciary-color-700: #D40847;
-$terciary-color-800: #BC0840;
-$terciary-color-900: #A50838;
+$secondary-color-100: lighten($secondary-color-500, 40%);
+$secondary-color-200: lighten($secondary-color-500, 30%);
+$secondary-color-300: lighten($secondary-color-500, 20%);
+$secondary-color-400: lighten($secondary-color-500, 10%);
+$secondary-color-600: darken($secondary-color-500, 10%);
+$secondary-color-700: darken($secondary-color-500, 20%);
+$secondary-color-800: darken($secondary-color-500, 30%);
+$secondary-color-900: darken($secondary-color-500, 40%);
+
+
+
+$primary-color-dark-500: #49608B;
+$primary-color-dark-600: #434D61;
+$primary-color-dark-700: #2F3136;
+
+
+$secondary-color-500: #7001E0;
+
+
+$hover-color: #E0820C;
+$hover-color-lighter: #FFA624;
+$prymary-border-color: #9A99E6;
+$primary-focus-color: #1B9EE0;
 
 $text-color: #0D0D0D;
 $text-color-400: #262626;
 $text-color-300: #595959;
 $text-color-200: #8C8C8C;
 
-$white-text-color: #F2F2F2;
-$white-text-color-100: #FFFFFF;
-$white-text-color-200: #FFFFFF;
-$white-text-color-300: #FFFFFF;
-$white-text-color-400: #FFFFFF;
 $white-text-color-500: #F2F2F2;
-$white-text-color-600: #E6E6E6;
-$white-text-color-700: #D9D9D9;
-$white-text-color-800: #CCCCCC;
-$white-text-color-900: #BFBFBF;

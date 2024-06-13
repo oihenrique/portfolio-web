@@ -4,15 +4,15 @@
     padding: 8px 16px;
     font-size: 16px;
     font-weight: 500;
-    color: $text-color;
-    background-color: $primary-color-600;
+    color: $white-text-color-500;
+    background-color: $primary-color-500;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: .35s;
 
     &:hover {
-        color: $white-text-color;
-        background-color: $secondary-color-500;
+        color: $white-text-color-500;
+        background-color: $hover-color;
     }
 }
