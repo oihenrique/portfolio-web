@@ -10,4 +10,10 @@ export class CardComponent {
   @Input() description: string = '';
   @Input() image: string = '';
   @Input() link: string = '';  
+  @Input() tag1: string = '';
+  @Input() tag2: string = '';
+  @Input() tag3: string = '';
+  @Input() tagColor1: string = '';
+  @Input() tagColor2: string = '';
+  @Input() tagColor3: string = '';
 }

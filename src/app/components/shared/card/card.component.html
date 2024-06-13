@@ -9,5 +9,10 @@
                 <p>Github</p>
             </a>
         </div>
+        <div class="tags" *ngIf="tag1 || tag2 || tag3">
+            <app-tag *ngIf="tag1" [name]="tag1" [color]="tagColor1"></app-tag>
+            <app-tag *ngIf="tag2" [name]="tag2" [color]="tagColor2"></app-tag>
+            <app-tag *ngIf="tag3" [name]="tag3" [color]="tagColor3"></app-tag>
+        </div>
     </div>
 </div>
