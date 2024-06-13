@@ -8,9 +8,21 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
-    background-color: $white-text-color;
+    background-color: $white-text-color-500;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: "Noto Sans Mono", sans-serif;
+}
+
+.wrapper {
+    padding:  0 36px;
+}
+
+@media (min-width: 1080px) {
+    .wrapper {
+        padding: 0 72px;
+    }
 }
