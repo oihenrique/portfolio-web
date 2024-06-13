@@ -7,6 +7,14 @@
     justify-content: center;
     margin-bottom: 2rem;
     
+    h2 {
+        margin-top: 4rem;
+    }
+    
+    p {
+        margin-top: 0;
+    }
+
     form {
         display: flex;
         flex-direction: column;
@@ -15,16 +23,49 @@
         width: 500px;
         margin: 0 auto;
         padding: 2rem 3rem;
-        background-color: $white-text-color-500;
+        background-color: $primary-color-dark-600;
         border-radius: 6px;
         gap: 8px;
 
         label {
             font-weight: 600;
+            color: $white-text-color-500;
+        }
+
+        input {
+            padding: 0.5em;
+            outline: none;
+            border: 0;
+            border-radius: 4px;
+            margin-bottom: 1em;
+            font-size: 15px;
+            transition: all 0.1s;
+
+            &:focus {
+                border-radius: 8px;
+                outline: 2px solid $hover-color;
+            }
+        }
+        
+        textarea {
+            padding: 0.5em;
+            outline: none;
+            border: 0;
+            border-radius: 4px;
+            font-size: 15px;
+            margin-bottom: 1.5em;
+            transition: all 0.1s;
+
+            &:focus {
+                border-radius: 8px;
+                outline: 2px solid $hover-color;
+            }
         }
 
         input, textarea {
             width: 100%;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 12px;
         }
     }
 }
