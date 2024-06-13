@@ -1,1 +1,6 @@
-<button class="btn-primary">{{ text }}</button>
+<a [href]="link" *ngIf="isDownloadable" download>
+  <button class="btn-primary">{{ text }}</button>
+</a>
+<a [href]="link" *ngIf="!isDownloadable">
+  <button class="btn-primary">{{ text }}</button>
+</a>
