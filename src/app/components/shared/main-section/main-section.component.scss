@@ -6,6 +6,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: $primary-color-dark-600;
+    padding-bottom: 4rem;
 
 
     .main-content {
@@ -35,7 +36,6 @@ main {
         }
 
         p {
-            margin-bottom: 4rem;
             color: $white-text-color-500;
         }
     }
