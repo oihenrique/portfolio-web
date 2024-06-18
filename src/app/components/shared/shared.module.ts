@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { TagComponent } from './tag/tag.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TagComponent } from './tag/tag.component';
     TagComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     BtnPrimaryComponent,
