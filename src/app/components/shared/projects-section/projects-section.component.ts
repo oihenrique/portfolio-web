@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './projects-section.component.scss'
 })
 export class ProjectsSectionComponent {
-  uniformixImg = '../../../../assets/uniformix.svg';
+  uniformixImg = '../../../../assets/uniformix/uniformix.svg';
   uniformixlink = 'https://github.com/oihenrique/uniformix';
   relatoriosImg = '../../../../assets/relatorios.png';
   relatoriosLink = 'https://github.com/oihenrique/gerar-relatorios-itens-cancelados';
