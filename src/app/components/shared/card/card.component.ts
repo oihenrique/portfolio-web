@@ -16,4 +16,5 @@ export class CardComponent {
   @Input() tagColor1: string = '';
   @Input() tagColor2: string = '';
   @Input() tagColor3: string = '';
+  @Input() route: string = '';
 }
