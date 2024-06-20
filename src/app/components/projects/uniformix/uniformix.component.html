@@ -1,0 +1,118 @@
+<div class="container">
+    <div class="resume padding">
+        <h1>Uniformix - Sistema de Gestão de Uniformes</h1>
+        <h3>Índice</h3>
+        <ol class="list">
+            <li class="list-item">Introdução</li>
+            <li class="list-item">Tecnologias utilizadas</li>
+            <li class="list-item">Requisitos</li>
+            <li class="list-item">Funcionalidades</li>
+            <li class="list-item">Design no Figma</li>
+            <li class="list-item">Diagramas UML</li>
+        </ol>
+    </div>
+    <div class="introducao padding">
+        <h2 id="introducao">Introdução</h2>
+        <div>
+        <p> O principal objetivo do Uniformix é fornecer controle de inventário de uniformes
+            da empresa, permitindo que as operações sejam registradas por meio de um 
+            histórico de transações e fisicamente através de protocolos assinados pelos 
+            funcionários. <br><br>
+            Aplicação ao vivo: <a href="https://uniformix-app.web.app/" target="_blank">clique aqui</a>.
+        </p>
+        <img src="../../../../assets/uniformix/uniformix-mockup1.png" alt="uniformix-mockup">
+        </div>
+    </div>
+    <div class="tecnologias padding">
+        <h2 id="tecnologias">Tecnologias utilizadas</h2>
+        <div>
+                    <ul class="list">
+            <li class="list-item">Java</li>
+            <li class="list-item">TypeScript</li>
+            <li class="list-item">Angular</li>
+            <li class="list-item">Spring</li>
+            <li class="list-item">PostgreSQL</li>
+            <li class="list-item">Hibernate</li>
+            <li class="list-item">Flyway</li>
+        </ul>
+        <img src="../../../../assets/uniformix/uniformix-mockup2.png" alt="uniformix-mockup">
+        </div>
+    </div>
+    <div class="requisitos padding">
+        <H2 id="requisitos">Requisitos levantados</H2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Requisitos Funcionais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>RF-01</td>
+                    <td>O sistema deve permitir as operações de criação, leitura, edição e exclusão de lotes</td>
+                </tr>
+                <tr>
+                    <td>RF-02</td>
+                    <td>Os lotes devem conter as seguintes informações: descrição, quantidade, categoria, fornecedor e data de aquisição</td>
+                </tr>
+                <tr>
+                    <td>RF-03</td>
+                    <td>O sistema deve permitir as operações de criação, leitura e edição de uniformes/EPIs</td>
+                </tr>
+                <tr>
+                    <td>RF-04</td>
+                    <td>Os uniformes/EPIs devem conter as seguintes informações: descrição, quantidade, sexo(gênero) e tamanho</td>
+                </tr>
+                <tr>
+                    <td>RF-05</td>
+                    <td>O sistema deve conter uma janela de “Configurações” para criar categorias, fornecedores e unidades (lojas/departamentos).</td>
+                </tr>
+                <tr>
+                    <td>RF-06</td>
+                    <td>O usuário deve poder exportar os dados dos lotes registrados</td>
+                </tr>
+                <tr>
+                    <td>RF-07</td>
+                    <td>O sistema deve registrar um log de transações com pesquisa por nome do colaborador ou loja</td>
+                </tr>
+                <tr>
+                    <td>RF-08</td>
+                    <td>O usuário deve poder exportar os dados de transações realizadas, filtradas por loja e período</td>
+                </tr>
+                <tr>
+                    <td>RF-09</td>
+                    <td>O sistema deve possuir uma janela de entrada/saída para realizar operações de entrega ou devolução de fardamento, com as seguintes informações: nome do colaborador, loja/departamento(Unidade), quantidade e data de entrega.</td>
+                </tr>
+                <tr>
+                    <td>RF-10</td>
+                    <td>O sistema deve gerar um protocolo disponível para impressão com as seguintes informações: termo de compromisso, nome do colaborador, quantidade entregue, código do protocolo, data de emissão e campo para assinatura.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="funcionalidades padding">
+        <h2 id="funcionalidades">Funcionalidades</h2>
+        <ul>
+            <li><strong>Operações CRUD:</strong> Criar, ler, atualizar e excluir uniformes, lotes de uniformes, unidades, categorias e fornecedores.</li>
+            <li><strong>Geração de Relatórios:</strong> Relatório de transações, uniformes e lotes.</li>
+            <li><strong>Emissão de Protocolos:</strong> Para cada transação, o sistema emite um protocolo em PDF para impressão e assinatura física.</li>
+            <li><strong>Interface Web</strong></li>
+            <li><strong>Autenticação de Usuário</strong></li>
+            <li><strong>Hashing e Salting seguro de senhas usando BCrypt.</strong></li>
+            <li><strong>Integração com o Banco de Dados PostgreSQL</strong> para armazenamento de informações do sistema.</li>
+        </ul>
+    </div>
+    <div class="figma padding">
+        <h2 id="figma">Figma Design</h2>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F8buUO0UFZOe1XNF2YZVN8P%2FUniformix%3Fnode-id%3D0-1%26t%3D2gpRJ3NM60E6CH8a-1" allowfullscreen></iframe>
+    </div>
+    <div class="uml padding">
+        <h2 id="UML">Diagramas UML</h2>
+        <h3>Diagrama de entidades</h3>
+        <img src="../../../../assets/uniformix/uniformix-entities.svg" alt="Diagrama de entidades">
+        <h3>Diagrama de classes</h3>
+        <img src="../../../../assets/uniformix/UniformixClass.drawio.svg" alt="Diagrama de classes">
+    </div>
+
+</div>
