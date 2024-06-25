@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="resume padding">
+        <h1>Gerador Automático de Relatórios de Vendas</h1>
+        <h3>Índice</h3>
+        <ol class="list">
+            <li class="list-item">Introdução</li>
+            <li class="list-item">Tecnologias utilizadas</li>
+            <li class="list-item">Requisitos</li>
+            <li class="list-item">Funcionalidades</li>
+            <li class="list-item">Design no Figma</li>
+            <li class="list-item">Diagramas UML</li>
+        </ol>
+    </div>
+    <div class="introducao padding">
+        <h2 id="introducao">Introdução</h2>
+        <div>
+            <p>A inspiração para este projeto surgiu de desafios enfrentados no ambiente de trabalho. 
+                Esta era uma tarefa demorada de criar manualmente relatórios para 37 lojas diferentes, 
+                <strong>exigindo de 1 a 2 horas</strong> todos os dias. Portanto, o projeto visa resolver esse problema 
+                automatizando todo o processo, reduzindo o tempo necessário para meros 20 minutos.
+            </p>
+            <img src="../../../../assets/automatedReports/video1.gif" alt="uniformix-mockup">
+        </div>
+    </div>
+    <div class="tecnologias padding">
+        <h2 id="tecnologias">Tecnologias utilizadas</h2>
+        <div>
+            <ul class="list">
+                <li class="list-item"><strong>JavaScript</strong>: Neste projeto, o código em JavaScript foi utilizado para conferir dinamicidade à página e para integrar o Node.js, o Electron.js e os scripts python.</li>
+                <li class="list-item"><strong>ElectronJS</strong>: O Electron.js foi utilizado para a criação da interface do usuário.</li>
+                <li class="list-item"><strong>Python</strong>: Já o Python foi utilizado para a criação de scripts de automação e manipulação de arquivos no sistema operacional Windows, como a criação de pastas por exemplo.</li>
+                <li class="list-item"><strong>Pandas</strong>: O Pandas foi utilizado para obtenção, manipulação e registro de valores nas planilhas.</li>
+                <li class="list-item"><strong>Openpyxl</strong>: Por fim, o Openpyxl foi utilizado em geral para manipulação de estilos e formatação das planilhas.</li>
+            </ul>
+            <img src="../../../../assets/automatedReports/video2.gif" alt="uniformix-mockup">
+        </div>
+    </div>
+    <div class="requisitos padding">
+        <H2 id="requisitos">Requisitos levantados</H2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Requisitos Funcionais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>RF-01</td>
+                    <td>O script deve gerar uma planilha com as informações obtidas no sistema da empresa</td>
+                </tr>
+                <tr>
+                    <td>RF-02</td>
+                    <td>Com base na planilha geral, o sistema deve separar as informações em planilhas individuais para cada loja</td>
+                </tr>
+                <tr>
+                    <td>RF-03</td>
+                    <td>O sistema deve enviar os relatórios por e-mail para cada e-mail de cada loja</td>
+                </tr>
+                <tr>
+                    <td>RF-04</td>
+                    <td>O sistema deve conter interface para que o usuário não tenha que manejar os scripts</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="funcionalidades padding">
+        <h2 id="funcionalidades">Funcionalidades</h2>
+        <ul>
+            <li><strong>Criação Automática de Planilhas:</strong> Gera relatórios de vendas canceladas em formato de 
+                planilha .xlsx já formatadas e com fórmulas configuradas.</li>
+            <li><strong>Integração de E-mail:</strong> Envia os relatórios gerados diretamente para os e-mails 
+                registrados em um arquivo de configuração .json.</li>
+            <li><strong>Interface gráfica:</strong> Possui uma interface gráfica para facilitar o uso de usuários leigos em programação.</li>
+        </ul>
+    </div>
+</div>

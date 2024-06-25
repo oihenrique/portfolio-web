@@ -1,0 +1,127 @@
+@import '../../../colors.scss';
+
+.padding {
+    padding: 1rem 32px;
+}
+
+.resume {
+    background-color: $primary-color-dark-500;
+
+    h1, li {
+        color: $white-text-color-500;
+    }
+
+    h3 {
+        color: $hover-color-lighter;
+    }
+}
+
+.introducao {
+    text-align: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+
+    a {
+        font-weight: 600;
+        color: $hover-color;
+
+        &:hover {
+            color: $primary-color-500;
+        }
+    }
+
+}
+
+.tecnologias {
+    background-color: $primary-color-dark-600;
+
+    h2, li {
+        color: $white-text-color-500;
+    }
+
+    Strong {
+        color: $hover-color-lighter;
+    }
+}
+
+.tecnologias {
+    h2 {
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img {
+        width: 320px;
+        height: 250px;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (min-width: 1080px) {
+    .padding {
+        padding: 2rem 72px;
+    }
+
+    .introducao {
+        text-align: left;
+
+        div {
+            flex-direction: row;
+            align-items: start;
+            gap: 1.5rem;
+        }
+        
+        img {
+            width: fit-content;
+            height: 300px;
+        }
+    }
+
+    .tecnologias {
+        h2 {
+            text-align: left;
+        }
+
+        div {
+            flex-direction: row;
+            gap: 1.5rem;
+        }
+
+        img {
+            width: fit-content;
+            height: 250px;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introducao, .tecnologias, .requisitos, .funcionalidades {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
