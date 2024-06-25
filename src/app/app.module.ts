@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './components/home/home.module';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from './components/shared/shared.module';
+import { AutomatedReportsComponent } from './components/projects/automated-reports/automated-reports.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AutomatedReportsComponent
   ],
   imports: [
     BrowserModule,
