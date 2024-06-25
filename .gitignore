@@ -50,3 +50,4 @@ firebase.json
 .firebaserc
 src/assets/[Currículo] - Henrique Gomes da Silva.pdf
 .gitignore
+.idx/dev.nix
