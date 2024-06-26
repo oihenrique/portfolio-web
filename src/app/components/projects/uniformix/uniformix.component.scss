@@ -119,8 +119,25 @@
         }
         
         img {
-            width: 350px;
-            height: 300px;
+            width: 420px;
+            height: 350px;
+        }
+    }
+
+    .tecnologias {
+        h2 {
+            text-align: left;
+        }
+
+        div {
+            flex-direction: row;
+            align-items: start;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 420px;
+            height: 350px;
         }
     }
 }
