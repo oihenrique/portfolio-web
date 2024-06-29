@@ -116,6 +116,10 @@ header {
 
     .menu {
         display: flex !important;
+
+        .menu-item:nth-last-child(4) {
+            padding-top: 0px !important;
+        }
     }
 
     #home, #contact {
