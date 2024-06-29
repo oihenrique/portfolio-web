@@ -7,11 +7,13 @@ import { HomeModule } from './components/home/home.module';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from './components/shared/shared.module';
 import { AutomatedReportsComponent } from './components/projects/automated-reports/automated-reports.component';
+import { DoItForLifeComponent } from './components/projects/do-it-for-life/do-it-for-life.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutomatedReportsComponent
+    AutomatedReportsComponent,
+    DoItForLifeComponent
   ],
   imports: [
     BrowserModule,
